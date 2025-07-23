@@ -21,7 +21,7 @@ void main() {
     k++;
   } while (k <= 5);
 
-  print('\n⛔ Break in For Loop:');
+  print('\n Break in For Loop:');
   // 4. Break Example
   for (int m = 1; m <= 5; m++) {
     if (m == 3) {
@@ -31,7 +31,7 @@ void main() {
     print('m = $m');
   }
 
-  print('\n⏭️ Continue in For Loop:');
+  print('\ Continue in For Loop:');
   // 5. Continue Example
   for (int n = 1; n <= 5; n++) {
     if (n == 3) {
