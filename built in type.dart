@@ -48,7 +48,8 @@ void main() {
   print('Dynamic as int: $item');
 
   // 12. var - type inferred at compile-time
-  var city = 'Lahore';  // Treated as String
+  var city = 'Lahore'; 
+  
   print('City: $city');
 
   // 13. Object - base class for all types
