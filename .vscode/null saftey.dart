@@ -9,7 +9,7 @@ void main() {
   print(city?.toUpperCase());  // ✅ PARIS
 
   String? username;
-  print(username ?? "Guest");  // ✅ Guest
+  print(username ? ? "Guest");  // ✅ Guest
 
   username ??= "Admin";
   print(username);             // ✅ Admin
