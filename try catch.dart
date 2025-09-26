@@ -8,4 +8,8 @@ void main() {
     print("This block always runs (cleanup code).");
   }
 }
-// 
+// output:
+//Error caught: IntegerDivisionByZeroException
+//This block always runs (cleanup code).
+
+
